@@ -1,6 +1,9 @@
 /* style.css from @fadein */
-.fib {
-	display: block;
+#fib{
+	display:block;
+	width: auto;
+}
+	.fib {
 	background-color: rgba(112,128,144,0.1);
 }
 
@@ -11,6 +14,48 @@
 }
 
 .fib-right {
+	float: right;
+	display:block;
+	margin-left: 4px;
+}
+#pell{
+	display:block;
+	width: auto;
+}
+.pell {
+	background-color: rgba(112,128,144,0.1);
+}
+
+.pell-left {
+	float: left;
+	display: block;
+	margin-right: 4px;
+}
+
+.pell-right {
+	float: right;
+	display:block;
+	margin-left: 4px;
+}
+#trib{
+	display:block;
+	width: auto;
+}
+.trib {
+	background-color: rgba(112,128,144,0.1);
+}
+
+.trib-left {
+	float: left;
+	display: block;
+	margin-right: 4px;
+}
+.trib-mid {
+	float: left;
+	display: block;
+	margin: auto;
+}
+.trib-right {
 	float: right;
 	display:block;
 	margin-left: 4px;
