@@ -1,9 +1,9 @@
 /* style.css from @fadein */
 #fib{
-	display:block;
 	width: auto;
 }
 	.fib {
+	display:inline-block;	
 	background-color: rgba(112,128,144,0.1);
 }
 
@@ -19,10 +19,10 @@
 	margin-left: 4px;
 }
 #pell{
-	display:block;
 	width: auto;
 }
 .pell {
+	display:inline-block;
 	background-color: rgba(112,128,144,0.1);
 }
 
@@ -38,7 +38,6 @@
 	margin-left: 4px;
 }
 #trib{
-	display:block;
 	width: auto;
 }
 .trib {
