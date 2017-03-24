@@ -46,6 +46,7 @@ var fib = function (n, node) {
 
 	var tree = fibHelper(n);
 	node.appendChild(tree.html);
+	node.setAttribute("id","fib");
 }
 
 var fibButton = function(me) {
@@ -53,12 +54,6 @@ var fibButton = function(me) {
 	var slider = form.querySelector('input');
 	var value = slider.value;
 	fib(value, form.parentNode);
-}
-
-var fibSlider = function(me) {
-	var form = me.parentNode;
-	var button = form.querySelector('button');
-	button.textContent = 'Fib(' + me.value + ')';
 }
 
 var fibSlider = function(me) {
@@ -113,6 +108,7 @@ var pell = function (n, node) {
 
 	var tree = pellHelper(n);
 	node.appendChild(tree.html);
+	node.setAttribute("id","pell");
 }
 
 var pellButton = function(me) {
@@ -181,6 +177,7 @@ var Trib = function (n, node) {
 
 	var tree = TribHelper(n);
 	node.appendChild(tree.html);
+	node.setAttribute("id","trib");
 }
 
 var tribButton = function(me) {
@@ -194,4 +191,4 @@ var tribSlider = function(me) {
 	var form = me.parentNode;
 	var button = form.querySelector('button');
 	button.textContent = 'Trib(' + me.value + ')';
-}
+	}
