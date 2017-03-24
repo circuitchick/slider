@@ -51,10 +51,10 @@
 	margin-right: 4px;
 }
 .trib-mid {
-	float: right;
+	float: left;
 	display:block;
-	margin-left: 4px;
-	margin-right: 8px;
+	margin-left: 8px;
+	margin-right: 4px;
 }
 .trib-right {
 	float: right;
